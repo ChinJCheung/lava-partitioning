@@ -2,10 +2,10 @@
 CXX=g++
 
 #Flags for linker
-LD_FLAGS= -w2
+LD_FLAGS= -w
 
 #Flags for compiler
-CXX_FLAGS=-diag-disable=remark -w2 -O2 
+CXX_FLAGS=-diag-disable=remark -fpermissive -w -O2 
 
 
 ###########################################################
