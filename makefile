@@ -5,7 +5,7 @@ CXX=g++
 LD_FLAGS= -w
 
 #Flags for compiler
-CXX_FLAGS=-diag-disable=remark -w -O2 
+CXX_FLAGS=-diag-disable=remark -fpermissive -w -O2 
 
 
 ###########################################################
